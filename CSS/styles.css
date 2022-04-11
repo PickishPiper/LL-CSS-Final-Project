@@ -1,0 +1,84 @@
+/*  teal: #155263
+dark purple: #8901FF
+bold blue: #0051FF
+goldenrod: #ffc93c;
+medium purple: #B000FF
+magenta: #FD02FF
+red: #FF0477
+teal: #0BBDC6
+*/
+
+
+
+/* Global styles
+---------------------------------------- */
+body{
+  background-color: #8901FF;
+  color: #ff9a3c;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #FD02FF;
+}
+a:hover{
+  text-decoration: none;
+}
+h1, h2, h3{
+  text-shadow: #ff9a3c 1px 0 10px;
+}
+
+.adjectives{
+  text-shadow: none;
+}
+
+
+/* Profile
+---------------------------------------- */
+header{
+
+}
+
+
+
+
+/* Projects
+---------------------------------------- */
+.projects{
+  background: #8901FF;
+}
+.projects a {
+  color: #2f3061;
+
+}
+.projects .btn {
+  background:#FD02FF;
+  color: #ffc93c;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.projects .btn:hover{
+  background: rgba(253,3,255,80%);
+}
+
+
+/* Work experience
+---------------------------------------- */
+.work-experience{
+background: #8901FF;
+}
+
+
+
+/* education
+---------------------------------------- */
+
+
+
+/* contact info
+---------------------------------------- */
+footer {
+  background: #0051FF;
+}
