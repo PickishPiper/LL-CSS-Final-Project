@@ -13,9 +13,21 @@ teal: #0BBDC6
 /* Global styles
 ---------------------------------------- */
 body{
-  background-color: #8901FF;
+  background-color: #350460;
   color: #ff9a3c;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+
 }
+html{
+  box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 img {
   width: 300px;
 }
@@ -26,11 +38,29 @@ a:hover{
   text-decoration: none;
 }
 h1, h2, h3{
+  color: #eef120;
   text-shadow: #ff9a3c 1px 0 10px;
+}
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 80px;
+  line-height: 1;
+}
+h2{
+font-family: 'Major Mono Display', monospace;
+text-align: center;
+  margin: 0;
+
 }
 
 .adjectives{
   text-shadow: none;
+}
+.content-wrap{
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+
 }
 
 
@@ -46,28 +76,38 @@ header{
 /* Projects
 ---------------------------------------- */
 .projects{
-  background: #8901FF;
+  background: #350460;
 }
 .projects a {
-  color: #2f3061;
+  color: #350460;
 
 }
 .projects .btn {
   background:#FD02FF;
   color: #ffc93c;
+  display: inline-block;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
 }
-.projects .btn:hover{
+.projects .btn:hover {
   background: rgba(253,3,255,80%);
+}
+.project-item {
+  overflow: hidden;
+  border-bottom: 2px dashed #0BBDC6;
+  padding: 25px 0;
+}
+.project-item img{
+  float: left;
+  margin: 20px;
 }
 
 
 /* Work experience
 ---------------------------------------- */
 .work-experience{
-background: #8901FF;
+background: #350460;
 }
 
 
