@@ -50,9 +50,10 @@ h2{
 font-family: 'Major Mono Display', monospace;
 text-align: center;
   margin: 0;
-
 }
-
+p {
+  font-size: 23px;
+}
 .adjectives{
   text-shadow: none;
 }
